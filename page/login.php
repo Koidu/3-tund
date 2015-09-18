@@ -71,7 +71,7 @@
 <?php require_once("../header.php");?>	
 	
 	<h2>Login</h2>
-	<form action="login.php" method="post">
+		<form action="login.php" method="post">
 		<input name="email" type="email" placeholder="E-post" > <?php echo $email_error ?> <br><br>
 		<input name="password" type="password" placeholder="Parool"> <?php echo $password_error ?> <br><br>
 		<input name ="login" type="submit" value="Logi sisse"> <br><br>
@@ -87,3 +87,5 @@
 		<input name ="create" type="submit" value="Loo konto"> <br><br>
 	</form>
 <?php require_once("../footer.php"); ?>
+
+<p>mvp ideeks mõtlesin teha... </p>
